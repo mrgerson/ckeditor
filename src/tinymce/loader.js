@@ -20,8 +20,3 @@ import 'tinymce/plugins/table'
 import 'tinymce/plugins/wordcount'
 import 'tinymce/plugins/help'
 
-import 'tinymce/skins/ui/oxide/skin.min.css'
-
-// En webpack, `require` te da la URL final del asset
-export const TINYMCE_CONTENT_CSS_URL =
-  require('tinymce/skins/content/default/content.min.css')
